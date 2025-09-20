@@ -8,44 +8,44 @@ create table libro (
 );
 insert into libro (nombre, descripcion, imagen_url)
 values (
-    'El ritmo y la palabra o para una poética de la música salsa',
-    'La salsa se ha desarrollado ampliamente como estilo musical del Caribe  hispánico. El propósito principal de este libro consiste en indagar la poética  de las canciones de salsa y presalsa. ',
-    'https://simehbucket.s3.amazonaws.com/images/eb99f18bd6fd3173a377c82e1265fff4-medium.jpg'
+    'Cien Años de Soledad',
+    'La obra maestra de Gabriel García Márquez que narra la historia de la familia Buendía a lo largo de siete generaciones en el pueblo ficticio de Macondo.',
+    'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSbNAvE0GfZzgCtmbgy3DElhxiN9muZQYtN9g&s'
   ),
   (
-    'Tesoros fósiles de Firavitoba.',
-    'En esta obra de divulgación científica converge la ciencia y el arte en la interpretación paleoambiental del miembro superior calcáreo de la Formación Tibasosa. ',
-    'https://simehbucket.s3.amazonaws.com/images/7a665c7977e7b9df2eee119f35ce13f2-medium.jpg'
+    'El Quijote de la Mancha',
+    'Las aventuras de Don Quijote y su fiel escudero Sancho Panza en su lucha contra los molinos de viento y otros desafíos imaginarios.',
+    'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQcMRZdGl9oMFn7_O4oyErwUXK9yrN3OcSe0w&s'
   ),
   (
-    'Análisis de la velocidad en la interceptación del balón en porteros de fútbol de salón, basado en detección de movimiento.',
-    'La tecnología constituye un apoyo al entrenamiento deportivo que influye en la preparación del jugador. Este libro informa sobre el análisis de la velocidad de intercepción del balón en porteros de fútbol de salón.',
-    'https://simehbucket.s3.amazonaws.com/images/7a665c7977e7b9df2eee119f35916563-medium.jpg'
+    '1984',
+    'Una distopía clásica de George Orwell que describe un mundo totalitario donde el Gran Hermano vigila cada movimiento de los ciudadanos.',
+    'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRf6kMW5rBSZz-RsErME_uuXiZeXIwUGG3lfw&s'
   ),
   (
-    'Simulación basada en dinámica de sistemas y agentes inteligentes, aplicada a un sistema complejo',
-    'Esta investigación propone una forma de integrar dos técnicas de simulación, una basada en agentes inteligentes y la segunda en dinámica de sistemas, aplicado a un caso de estudio real, en el cual se busca evaluar la calidad del servicio prestado en la operación de un sistema de transporte público colectivo urbano en ciudades intermedias, teniendo en cuenta el comportamiento de las variables complejas:  comodidad y rapidez.',
-    'https://simehbucket.s3.amazonaws.com/images/a43a8974b98583f5163181f5fd7de661-medium.jpg'
+    'El Principito',
+    'La conmovedora historia de un pequeño príncipe que viaja de planeta en planeta aprendiendo sobre la vida, el amor y la amistad.',
+    'https://online.fliphtml5.com/ilypf/stri/files/large/1.webp?1601836779&1601836779'
   ),
   (
-    'Metamodelo de medición de esfuerzo en proyectos de desarrollo de software',
-    'En este libro se propone un metamodelo basado en las características generales de los procesos de estimación de esfuerzo y los modelos de calidad y mejora de procesos, de esta forma pretende contribuir en la predicción del esfuerzo al interior de las organizaciones y ayudar a mejorar la planificación de los proyectos software. ',
-    'https://simehbucket.s3.amazonaws.com/images/a43a8974b98583f5163181f5fd7db64d-medium.jpg'
+    'Orgullo y Prejuicio',
+    'La historia de Elizabeth Bennet y Mr. Darcy en la Inglaterra del siglo XIX, una de las novelas románticas más famosas de la literatura.',
+    'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSvC-ihcGdtkATFpKMUIRRVmO2-fBwZ6Axkvw&s'
   ),
   (
-    'Prácticas de laboratorio en química general',
-    'En el proceso de formación en ciencias naturales la práctica en el laboratorio es fundamental para comprender los conceptos a través del ejercicio experimental. ',
-    'https://simehbucket.s3.amazonaws.com/images/523c1d5ee7c38c0eb8aac7b18cc8ebdb-medium.jpg'
+    'El Hobbit',
+    'La aventura de Bilbo Bolsón, un hobbit que se embarca en una épica aventura para recuperar un tesoro custodiado por un dragón.',
+    'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSFR4z-1xbwe3vtsLxEFJqPG8OQjvNabeHjxQ&s'
   ),
   (
-    'Mujeres en la investigación matemática, escenarios de visibilización',
-    'Esta investigación muestra formas de participación de las mujeres en avance del desarrollo científico desde sus aportes en matemática, especialmente destaca la trayectoria de tres matemáticas colombianas. ',
-    'https://simehbucket.s3.amazonaws.com/images/ecbf39cc05c48884b1f7d533b116b9dc-medium.jpg'
+    'Matar a un Ruiseñor',
+    'Una novela sobre la justicia racial en el sur de Estados Unidos, narrada desde la perspectiva de una niña de seis años.',
+    'https://m.media-amazon.com/images/I/71ScCUdhhQL._UF1000,1000_QL80_.jpg'
   ),
   (
-    'Métodos para la caracterización de la cerámica arqueológica',
-    'Esta obra reúne un conjunto de técnicas para la caracterización de la cerámica arqueológica en laboratorio.',
-    'https://simehbucket.s3.amazonaws.com/images/523c1d5ee7c38c0eb8aac7b18c6fa0fe-medium.jpg'
+    'El Gran Gatsby',
+    'La historia de Jay Gatsby y su obsesión por Daisy Buchanan en la era del jazz de los años 20 en Estados Unidos.',
+    'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSHjsJx0-jfyY_gqhuBoYPf35UhZng6azQDwg&s'
   );
 create table editorial (
   id int primary key auto_increment,
